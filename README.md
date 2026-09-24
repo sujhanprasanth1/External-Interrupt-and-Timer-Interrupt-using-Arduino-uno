@@ -2,10 +2,10 @@
 
 ## EXP 3: EXTERNAL INTERRUPT AND TIMER INTERRUPT USING ARDUINO UNO
 
-### Aim
+## Aim
 To implement External Interrupt and Timer Interrupt using an Arduino UNO and observe interrupt-driven execution.
 
-# Hardware / Software Tools Required
+### Hardware / Software Tools Required
 
 - Arduino UNO Board
 - USB Cable
@@ -19,11 +19,9 @@ To implement External Interrupt and Timer Interrupt using an Arduino UNO and obs
 
 # Circuit Diagram
 
----
+
 <img width="827" height="412" alt="image" src="https://github.com/user-attachments/assets/124fe722-66eb-4c0d-88bf-156973c9e7cb" />
 
-To upload
----
 
 # Procedure
 
@@ -105,21 +103,16 @@ void setup() {
 void loop() {
 
 }
+
 ```
----
-To upload
----
+
+
+##OUTPUT
+
 <img width="578" height="1280" alt="image" src="https://github.com/user-attachments/assets/3dbc9e1b-18fe-456f-9912-c78b534abeac" />
+<img width="1280" height="964" alt="image" src="https://github.com/user-attachments/assets/254912cd-df64-405c-b725-e73786cb678d" />
 
 
-# Observation
-
-| Activity | Expected Output |
-|----------|-----------------|
-| Board Powered ON | System initializes |
-| Push Button Pressed | External ISR executes immediately |
-| Timer Running | Timer ISR executes periodically |
-| LED | Toggles/blinks according to ISR |
 
 # Result
 
